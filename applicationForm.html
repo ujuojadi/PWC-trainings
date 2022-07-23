@@ -1,71 +1,87 @@
-
 <html>
-    <head>
-        <title>PWC WEBSITE</title>
-        <link rel="'stylesheet" href="'style.css">
-        <body>
-            <a href="index.html">Home</a>|
-            <a href="contactus.html">Contact us</a>|
-            <a href="gallery.html">Gallery</a>|
-            <a href="applicationForm.html">Application Form </a>|
-            <a href="aboutus.html">About Us</a>|
-            <a href="studentdata.html">Student Data</a>|
-            
+  <head>
+    <title>PWC WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <body>
+      <header>
+        <h1>
+          <span
+            ><img
+              style="height: 40px; width: 40px"
+              src="pwc logo.png"
+              alt="" /></span
+          >PWC student Website
+        </h1>
+        <a href="index.html">Home</a>| <a href="contactus.html">Contact us</a>|
+        <a href="gallery.html">Gallery</a>|
+        <a href="applicationForm.html">Application Form </a>|
+        <a href="aboutus.html">About Us</a>|
+        <a href="studentdata.html">Student Data</a>|
+      </header>
+      <h2 style="text-align: center">Application Form</h2>
 
-            <h1><span><img style="height: 40px; width: 40px;" src="pwc logo.png" alt=""></span>PWC student Website</h1>
+      <h1>
+        <span
+          ><img
+            style="height: 40px; width: 40px"
+            src="pwc logo.png"
+            alt="" /></span
+        >PWC student Website
+      </h1>
 
-          <h2 style="text-align:center">Application Form</h2>
-         <p>This is my first website created during my time in pwc learning software development</p>
-         <img src="lion.jpg" width=200px; height=200px alt="Lion">
-         <h3>Services offered by pwc</h3>
-         
-         <form action="">
-            <label for="FirstName">First Name: </label><br>
-            <input type="text"/><br/>
-            <label for="SecondName">Second Name: </label><br>
-            <input type="text"/><br>
-            <label for="Age">Age: </label><br>
-            <input type="text"/><br>
-            <label for="Gender">Gender: </label><br>
-            <input type="radio"  name ="male" value="female">
-            <label for="female">Female</label>
-            <input type="radio" name ="male" value="male">
-            <label for="male">Male</label><br>
-            <label>State: </label>
-            <select name="cars" id="cars">
-                <option value="abia">Abia</option>
-                <option value="enugu">Enugu</option>
-                <option value="lagos">Lagos</option>
-                <option value="kano">Kano</option>
-                <option value="edo">Edo</option>
-                <option value="ogun">Ogun</option>
-                <option value="kaduna">Kaduna</option>
-                <option value="delta">Delta</option>
-                <option value="calabar">Calabar</option>
-                <option value="imo">Imo</option>
-            </select>
-            <br>
-            <label>Courses: </label><br>
-            <input type="checkbox"  name="html">
-             <label for="html">HTML</label><br/>
-            <input type="checkbox"  name="CSS">
-             <label for="css">CSS</label><br/>
-            <input type="checkbox"  name="JS">
-             <label for="js">JS</label><br/>
-            <input type="checkbox"  name="python">
-             <label for="html">Python</label><br/>
-            <input type="checkbox"  name="Data Science">
-             <label for="datascience">Data Science</label><br/>
-            <input type="checkbox"  name="C#">
-             <label for="C#">C#</label><br/>
-            <button>Submit</button>
-            
-            
-            
-            
-            
-         </form>
-        </body>
-    </head>
+      <h2 style="text-align: center">Application Form</h2>
+      <p>
+        This is my first website created during my time in pwc learning software
+        development
+      </p>
+      <!-- <img src="lion.jpg" width=200px; height=200px alt="Lion"> -->
+      <h3>Services offered by pwc</h3>
+      <div class="container">
+        <div id="msg"></div>
+        <form action="" id="my-form">
+          <label for="FirstName">First Name: </label><br />
+          <input type="text" id="fname" /><br />
+          <label for="SecondName">Second Name: </label><br />
+          <input type="text" id="sname" /><br />
+          <label for="Age">Age: </label><br />
+          <input type="“number”" id="age" /><br />
+          <label for="Gender">Gender: </label><br />
+          <input type="radio" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" value="male" />
+          <label for="male">Male</label><br />
+          <label>State: </label>
+          <select name="state" id="state">
+            <option value=""></option>
+            <option value="abia">Abia</option>
+            <option value="enugu">Enugu</option>
+            <option value="lagos">Lagos</option>
+            <option value="kano">Kano</option>
+            <option value="edo">Edo</option>
+            <option value="ogun">Ogun</option>
+            <option value="kaduna">Kaduna</option>
+            <option value="delta">Delta</option>
+            <option value="calabar">Calabar</option>
+            <option value="imo">Imo</option>
+          </select>
+          <br />
+          <label>Courses: </label><br />
+          <input type="checkbox" name="html" />
+          <label for="html">HTML</label><br />
+          <input type="checkbox" name="CSS" />
+          <label for="css">CSS</label><br />
+          <input type="checkbox" name="JS" />
+          <label for="js">JS</label><br />
+          <input type="checkbox" name="python" />
+          <label for="html">Python</label><br />
+          <input type="checkbox" name="Data Science" />
+          <label for="datascience">Data Science</label><br />
+          <input type="checkbox" name="C#" />
+          <label for="C#">C#</label><br />
+          <button>Submit</button>
+        </form>
+      </div>
+    </body>
+    <script src="main2.js"></script>
+  </head>
 </html>
-
